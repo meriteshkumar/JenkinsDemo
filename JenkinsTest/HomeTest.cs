@@ -12,5 +12,13 @@ namespace JenkinsTest
 
             Assert.AreEqual("RUNNING", input);
         }
+
+        [TestMethod]
+        public void IsServiceHealthy()
+        {
+            var input = "YES";
+
+            Assert.AreEqual("YES", input);
+        }
     }
 }
